@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>อ่านสลิป - ReadSlip</title>
+    <meta name="description" content="อ่านสลิปไทยบน iPhone บันทึกรายจ่ายส่วนตัวหรือยอดเข้าร้าน พร้อมแดชบอร์ดและรายงานร้าน">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="site">
+      <nav class="nav">
+        <a class="brand" href="index.html">
+          <img src="assets/app-icon.png" alt="">
+          <span>อ่านสลิป</span>
+        </a>
+        <div class="nav-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="support.html">Support</a>
+        </div>
+      </nav>
+
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">ReadSlip for Thai payment slips</p>
+          <h1>สลิปในเครื่อง กลายเป็นรายการที่หาเจอ</h1>
+          <p class="lead">อ่านยอด วันที่ ผู้รับ และเลขอ้างอิงจากสลิปไทยด้วย OCR บน iPhone แล้วบันทึกเป็นรายจ่ายส่วนตัวหรือยอดเข้าร้าน พร้อมแดชบอร์ดรายวัน รายสัปดาห์ และรายเดือน เจ้าของร้านเริ่ม ReadSlip Pro ฟรี 7 วัน แล้วต่ออายุรายเดือน</p>
+          <div class="cta-row">
+            <a class="button" href="support.html">วิธีเริ่มใช้งาน</a>
+            <a class="button secondary" href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img class="hero-shot" src="assets/hero-dashboard.png" alt="หน้าจอแดชบอร์ด ReadSlip">
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <p class="eyebrow">What it does</p>
+          <h2>อ่านสลิป ตรวจข้อมูล แล้วเก็บเป็นรายการ</h2>
+          <div class="grid three">
+            <article class="panel">
+              <h3>OCR บนเครื่อง</h3>
+              <p>โหมดส่วนตัวอ่านสลิปด้วย Apple Vision บน iPhone และให้คุณตรวจข้อมูลก่อนบันทึกทุกครั้ง</p>
+            </article>
+            <article class="panel">
+              <h3>สแกนหลายรูป</h3>
+              <p>เลือกรูปหลายใบหรือให้แอปค้นหารูปล่าสุดที่น่าจะเป็นสลิป จากนั้นจัดกลุ่มผลลัพธ์ที่พร้อม ต้องตรวจ หรืออาจซ้ำ</p>
+            </article>
+            <article class="panel">
+              <h3>โหมดร้าน</h3>
+              <p>พนักงานถ่ายสลิป เจ้าของร้านใช้ ReadSlip Pro เพื่อเห็นยอดรายวัน รายสัปดาห์ รายเดือน ยอดตามพนักงาน และส่งออกรายงาน PDF หรือ PNG ได้</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split">
+          <div>
+            <p class="eyebrow">Personal Mode</p>
+            <h2>รู้ว่าเงินไปไหนจากรูปสลิป</h2>
+            <p class="note">เก็บรายการส่วนตัว ค้นหาด้วยยอด วันที่ ผู้รับ หรือเลขอ้างอิง และดูสรุปรายวัน หมวดหมู่ และผู้รับที่จ่ายบ่อย</p>
+          </div>
+          <div>
+            <p class="eyebrow">Shop Mode</p>
+            <h2>พนักงานส่งสลิป เจ้าของเห็นยอด</h2>
+            <p class="note">เจ้าของเริ่ม ReadSlip Pro ฟรี 7 วันเพื่อสร้างหลายร้าน แสดง QR เชิญพนักงาน จัดการร้าน และลบร้านที่ตัวเองสร้างได้ พนักงานส่งสลิปพร้อมรูปผ่าน Firebase ให้เจ้าของตรวจจากอีกเครื่อง</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="eyebrow">Privacy</p>
+          <h2>ออกแบบให้รู้ว่าข้อมูลอยู่ที่ไหน</h2>
+          <div class="grid two">
+            <article class="panel">
+              <h3>โหมดส่วนตัว</h3>
+              <p>รูปสลิปและข้อมูลที่บันทึกอยู่บนเครื่องของคุณ เว้นแต่คุณส่งออกหรือลบเอง แอปไม่ส่งรูปขึ้นคลาวด์เพื่ออ่าน OCR</p>
+            </article>
+            <article class="panel">
+              <h3>โหมดร้าน</h3>
+              <p>ข้อมูลร้านและรูปสลิปที่ส่งเข้าร้านซิงก์ผ่าน Firebase เพื่อให้เจ้าของร้านเห็นรายการจากเครื่องพนักงาน</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section callout">
+          <p class="eyebrow">Important</p>
+          <h2>อ่านสลิปไม่ใช่บริการธนาคาร</h2>
+          <p class="note">แอปช่วยอ่านและบันทึกข้อมูลจากสลิป แต่ไม่ได้ยืนยันสลิปกับธนาคาร ผู้ใช้ควรตรวจข้อมูลก่อนใช้งานจริงเสมอ</p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>© 2026 ReadSlip</span>
+        <span><a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
