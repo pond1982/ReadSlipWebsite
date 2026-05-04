@@ -12,7 +12,7 @@ Static App Store support site for ReadSlip.
 
 ## Before Deploy
 
-1. Replace `support@readslip.app` in `support.html` with the real support email.
+1. Confirm `pondd.dev@gmail.com` is the correct support/privacy contact email.
 2. Deploy this folder to a static host such as GitHub Pages, Netlify, Vercel, Firebase Hosting, or Cloudflare Pages.
 3. Use the deployed URLs in App Store Connect:
    - Marketing URL: `/index.html`
