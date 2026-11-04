@@ -3,97 +3,138 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>อ่านสลิป - ReadSlip</title>
-    <meta name="description" content="อ่านสลิปไทยบน iPhone บันทึกรายจ่ายส่วนตัวหรือยอดเข้าร้าน พร้อมแดชบอร์ดและรายงานร้าน">
+    <title>อ่านสลิป ReadSlip — คลังสลิปและสรุปใช้ฟรี</title>
+    <meta name="description" content="รู้จัก ReadSlip โฉมใหม่สำหรับ iPhone: อ่าน QR/OCR จากสลิปในคลังรูป ตรวจและจัดรายการ ดูสรุป และส่งออก XLSX/PDF ฟรี ชมภาพตัวอย่างจากรุ่นพัฒนา">
+    <meta name="theme-color" content="#f9f8f3">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="site">
-      <nav class="nav">
-        <a class="brand" href="index.html">
-          <img src="assets/app-icon.png" alt="">
-          <span>อ่านสลิป</span>
-        </a>
-        <div class="nav-links">
-          <a href="privacy.html">Privacy</a>
-          <a href="support.html">Support</a>
-        </div>
-      </nav>
+    <a class="skip-link" href="#main-content">ข้ามไปเนื้อหา</a>
+    <nav class="nav" aria-label="เมนูหลัก">
+      <a class="brand" href="index.html" aria-label="อ่านสลิป ReadSlip หน้าแรก">
+        <img src="assets/app-icon.png" alt="" width="44" height="44">
+        <span>อ่านสลิป <small lang="en">ReadSlip</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="#screenshots">ภาพหน้าจอ</a>
+        <a href="support.html">ช่วยเหลือ</a>
+        <a href="privacy.html">ความเป็นส่วนตัว</a>
+      </div>
+    </nav>
+
+
+    <main tabindex="-1" id="main-content">
+      <div class="notice release-note">
+        <span class="status-dot" aria-hidden="true"></span>
+        <p><strong>พรีวิวโฉมใหม่ · รุ่นพัฒนา 1.2 (9)</strong> เว็บไซต์นี้แนะนำรุ่นที่ทดสอบแล้ว แอปบน App Store อาจยังเป็นรุ่นก่อนหน้า <a href="support.html#release-status">อ่านเรื่องรุ่นแอปและสมาชิกเดิม</a></p>
+      </div>
 
       <header class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">ReadSlip for Thai payment slips</p>
-          <h1>สลิปในเครื่อง กลายเป็นรายการที่หาเจอ</h1>
-          <p class="lead">อ่านยอด วันที่ ผู้รับ และเลขอ้างอิงจากสลิปไทยด้วย OCR บน iPhone แล้วบันทึกเป็นรายจ่ายส่วนตัวหรือยอดเข้าร้าน พร้อมแดชบอร์ดรายวัน รายสัปดาห์ และรายเดือน เจ้าของร้านเริ่ม ReadSlip Pro ฟรี 7 วัน แล้วต่ออายุรายเดือน</p>
+          <p class="eyebrow">จากคลังรูป สู่คลังสลิปของคุณ</p>
+          <h1>จัดสลิปให้เป็นระเบียบ<br>เห็นภาพรวมได้ง่ายขึ้น</h1>
+          <p class="lead">เลือกรูปสลิปที่บันทึกไว้ใน iPhone ให้ ReadSlip ช่วยอ่าน QR และข้อความ ตรวจข้อมูล จัดเงินเข้า–เงินออก แล้วดูสรุปจากรายการที่คุณเลือกนับรวม</p>
+          <p class="free-badge">ใช้ฟรีทั้งสแกน สรุป และส่งออก</p>
+          <p class="note">โฉมใหม่ไม่ต้องเริ่มทดลองใช้หรือซื้อสมาชิก</p>
           <div class="cta-row">
-            <a class="button" href="support.html">วิธีเริ่มใช้งาน</a>
-            <a class="button secondary" href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+            <a class="button" href="support.html#get-started">ดูวิธีเริ่มใช้งาน</a>
+            <a class="button secondary" href="#screenshots">ชมหน้าจอใหม่ <span aria-hidden="true">↘</span></a>
           </div>
+          <p class="fine-print">สำหรับจัดบันทึกข้อมูลจากสลิป ไม่ได้ยืนยันความแท้ของสลิปหรือการรับเงินจริงจากธนาคาร</p>
         </div>
-        <div class="hero-media">
-          <img class="hero-shot" src="assets/hero-dashboard.png" alt="หน้าจอแดชบอร์ด ReadSlip">
-        </div>
+        <figure class="hero-media">
+          <a class="screenshot-link" href="assets/screenshots/overview.png" aria-label="ดูภาพหน้าจอภาพรวมขนาดเต็ม">
+            <img class="hero-shot" src="assets/screenshots/overview.png" alt="หน้าภาพรวมรุ่นพัฒนา แสดงยอดรับเข้า เงินออก และกราฟจากข้อมูลสมมติ พร้อมเลือกวัน สัปดาห์ หรือเดือน" width="780" height="1688" fetchpriority="high">
+          </a>
+          <figcaption>หน้าภาพรวม · ข้อมูลสมมติจาก Simulator</figcaption>
+        </figure>
       </header>
 
-      <main>
-        <section class="section">
-          <p class="eyebrow">What it does</p>
-          <h2>อ่านสลิป ตรวจข้อมูล แล้วเก็บเป็นรายการ</h2>
-          <div class="grid three">
-            <article class="panel">
-              <h3>OCR บนเครื่อง</h3>
-              <p>โหมดส่วนตัวอ่านสลิปด้วย Apple Vision บน iPhone และให้คุณตรวจข้อมูลก่อนบันทึกทุกครั้ง</p>
-            </article>
-            <article class="panel">
-              <h3>สแกนหลายรูป</h3>
-              <p>เลือกรูปหลายใบหรือให้แอปค้นหารูปล่าสุดที่น่าจะเป็นสลิป จากนั้นจัดกลุ่มผลลัพธ์ที่พร้อม ต้องตรวจ หรืออาจซ้ำ</p>
-            </article>
-            <article class="panel">
-              <h3>โหมดร้าน</h3>
-              <p>พนักงานถ่ายสลิป เจ้าของร้านใช้ ReadSlip Pro เพื่อเห็นยอดรายวัน รายสัปดาห์ รายเดือน ยอดตามพนักงาน และส่งออกรายงาน PDF หรือ PNG ได้</p>
-            </article>
-          </div>
-        </section>
+      <section class="section" aria-labelledby="workflow-heading">
+        <div class="section-heading">
+          <p class="eyebrow">สลิปที่เก็บไว้ มีประโยชน์ต่อได้</p>
+          <h2 id="workflow-heading">เลือก ตรวจ แล้วค่อยบันทึก</h2>
+        </div>
+        <div class="grid three">
+          <article class="panel">
+            <span class="step" aria-hidden="true">01</span>
+            <h3>เริ่มจากรูปในเครื่อง</h3>
+            <p>เลือกรูปเอง หรือสแกนคลังรูปที่อนุญาตให้เข้าถึง รวมสลิปที่บันทึกมาจากแอปอื่น ไม่จำกัดแค่รูปล่าสุด โฉมใหม่ไม่มีการถ่ายภาพในแอป</p>
+          </article>
+          <article class="panel">
+            <span class="step" aria-hidden="true">02</span>
+            <h3>คุณเป็นคนตัดสินใจ</h3>
+            <p>ตรวจยอด วันที่ คู่รายการ และเลขอ้างอิง แก้ข้อมูลที่อ่านไม่ชัด ระบุเงินเข้า เงินออก หรือโอนระหว่างบัญชีตัวเอง และจัดประเภทหลายรายการที่เลือกได้พร้อมกัน</p>
+          </article>
+          <article class="panel">
+            <span class="step" aria-hidden="true">03</span>
+            <h3>เห็นภาพรวมของช่วงนั้น</h3>
+            <p>ดูสรุปรายวัน รายสัปดาห์ หรือรายเดือน เลือกรายการที่จะนับรวม ค้นหาและแก้ไขย้อนหลัง แล้วส่งออก XLSX หรือ PDF ได้ฟรี</p>
+          </article>
+        </div>
+      </section>
 
-        <section class="section split">
-          <div>
-            <p class="eyebrow">Personal Mode</p>
-            <h2>รู้ว่าเงินไปไหนจากรูปสลิป</h2>
-            <p class="note">เก็บรายการส่วนตัว ค้นหาด้วยยอด วันที่ ผู้รับ หรือเลขอ้างอิง และดูสรุปรายวัน หมวดหมู่ และผู้รับที่จ่ายบ่อย</p>
-          </div>
-          <div>
-            <p class="eyebrow">Shop Mode</p>
-            <h2>พนักงานส่งสลิป เจ้าของเห็นยอด</h2>
-            <p class="note">เจ้าของเริ่ม ReadSlip Pro ฟรี 7 วันเพื่อสร้างหลายร้าน แสดง QR เชิญพนักงาน จัดการร้าน และลบร้านที่ตัวเองสร้างได้ พนักงานส่งสลิปพร้อมรูปผ่าน Firebase ให้เจ้าของตรวจจากอีกเครื่อง</p>
-          </div>
-        </section>
+      <section class="section" id="screenshots" aria-labelledby="screenshots-heading">
+        <div class="section-heading">
+          <p class="eyebrow">หน้าจอจากแอปจริง</p>
+          <h2 id="screenshots-heading">คลังสลิปใหม่ ใช้งานในแบบของคุณ</h2>
+          <p class="note">ภาพจากรุ่นพัฒนา 1.2 (9) ใช้ข้อมูลสมมติทั้งหมด เป็นภาพเรนเดอร์หน้าจอ native ใน Simulator ไม่ใช่ภาพจากเครื่องผู้ใช้ แตะภาพเพื่อดูขนาดเต็ม</p>
+        </div>
+        <div class="grid screenshot-grid">
+          <figure class="screen-card">
+            <div class="screen-copy">
+              <span class="eyebrow">ตรวจหลายรายการ</span>
+              <h3>เลือกไว้ แล้วจัดประเภทพร้อมกัน</h3>
+              <p>ตัวอย่างแถบจัดประเภทที่เลือกไว้ 20 รายการ การจัดประเภทยังไม่บันทึกข้อมูลที่ต้องตรวจให้โดยอัตโนมัติ</p>
+            </div>
+            <a class="screenshot-link" href="assets/screenshots/bulk-review.png" aria-label="ดูภาพการจัดประเภท 20 รายการที่เลือกขนาดเต็ม">
+              <img src="assets/screenshots/bulk-review.png" alt="แถบจัดประเภทสลิป 20 รายการที่เลือก แสดงตัวเลือกเงินเข้า เงินออก และโอนระหว่างบัญชีตัวเอง พร้อมคำเตือนให้ตรวจข้อมูลก่อนบันทึก" width="780" height="1688" loading="lazy">
+            </a>
+            <figcaption>ภาพทดสอบส่วนควบคุม native · ข้อมูลสมมติ · 390 × 844 จุด</figcaption>
+          </figure>
+          <figure class="screen-card">
+            <div class="screen-copy">
+              <span class="eyebrow">ตั้งค่าได้อย่างชัดเจน</span>
+              <h3>ใช้ฟรี พร้อมทางไปจัดการสมาชิกเดิม</h3>
+              <p>หน้าตั้งค่าแสดงสิทธิ์ใช้งานฟรี และแยกการกู้คืนหรือจัดการสมาชิกจากรุ่นก่อนหน้าไว้ให้</p>
+            </div>
+            <a class="screenshot-link" href="assets/screenshots/free-settings.png" aria-label="ดูภาพหน้าตั้งค่าและสิทธิ์ใช้ฟรีขนาดเต็ม">
+              <img src="assets/screenshots/free-settings.png" alt="หน้าตั้งค่า ReadSlip แสดงข้อความใช้ได้ฟรี พร้อมตัวเลือกภาษา ธีม และลิงก์สมาชิกเดิม" width="780" height="1688" loading="lazy">
+            </a>
+            <figcaption>หน้าตั้งค่า · ข้อมูลสมมติ · 390 × 844 จุด</figcaption>
+          </figure>
+        </div>
+        <p class="note screenshot-extra">ดูเพิ่มเติม: <a href="assets/screenshots/accessibility-direction.png">ตัวเลือกทิศทางเงินในธีมมืดและตัวอักษรใหญ่</a> — ภาพทดสอบส่วนควบคุม native ขนาด 320 × 844 จุด</p>
+      </section>
 
-        <section class="section">
-          <p class="eyebrow">Privacy</p>
-          <h2>ออกแบบให้รู้ว่าข้อมูลอยู่ที่ไหน</h2>
-          <div class="grid two">
-            <article class="panel">
-              <h3>โหมดส่วนตัว</h3>
-              <p>รูปสลิปและข้อมูลที่บันทึกอยู่บนเครื่องของคุณ เว้นแต่คุณส่งออกหรือลบเอง แอปไม่ส่งรูปขึ้นคลาวด์เพื่ออ่าน OCR</p>
-            </article>
-            <article class="panel">
-              <h3>โหมดร้าน</h3>
-              <p>ข้อมูลร้านและรูปสลิปที่ส่งเข้าร้านซิงก์ผ่าน Firebase เพื่อให้เจ้าของร้านเห็นรายการจากเครื่องพนักงาน</p>
-            </article>
-          </div>
-        </section>
+      <section class="section split" aria-labelledby="privacy-heading">
+        <div>
+          <p class="eyebrow">ข้อมูลของคุณ อยู่ในการควบคุมของคุณ</p>
+          <h2 id="privacy-heading">อ่านบน iPhone<br>ตรวจได้ก่อนนำไปใช้</h2>
+        </div>
+        <div>
+          <p class="note">การอ่าน QR และ OCR ทำบนอุปกรณ์ รายการและสำเนาสลิปของคลังส่วนตัวเก็บในเครื่อง คุณเลือกส่งออกเองได้ แอปยังใช้ Firebase สำหรับข้อมูลการใช้งานและพื้นที่ร้านเดิม จึงควรอ่านรายละเอียดแยกตามการใช้งาน</p>
+          <a class="text-link" href="privacy.html">อ่านนโยบายความเป็นส่วนตัว <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
 
-        <section class="section callout">
-          <p class="eyebrow">Important</p>
-          <h2>อ่านสลิปไม่ใช่บริการธนาคาร</h2>
-          <p class="note">แอปช่วยอ่านและบันทึกข้อมูลจากสลิป แต่ไม่ได้ยืนยันสลิปกับธนาคาร ผู้ใช้ควรตรวจข้อมูลก่อนใช้งานจริงเสมอ</p>
-        </section>
-      </main>
+      <section class="section callout" aria-labelledby="limits-heading">
+        <p class="eyebrow">ก่อนใช้ข้อมูลจากสลิป</p>
+        <h2 id="limits-heading">อ่านข้อมูลได้ ไม่ได้แปลว่าเงินเข้าจริง</h2>
+        <p>QR และ OCR ช่วยจัดระเบียบข้อมูลที่อยู่ในภาพเท่านั้น ไม่ได้ตรวจสอบกับธนาคารว่าสลิปเป็นของจริงหรือธุรกรรมสำเร็จแล้ว หากใช้ประกอบการรับชำระเงิน ให้ตรวจยอดในบัญชีธนาคารด้วยเสมอ</p>
+      </section>
 
-      <footer class="footer">
-        <span>© 2026 ReadSlip</span>
-        <span><a href="privacy.html">Privacy</a> · <a href="support.html">Support</a></span>
-      </footer>
-    </div>
+      <section class="section english-summary" lang="en" aria-labelledby="english-heading">
+        <p class="eyebrow">ReadSlip for iPhone</p>
+        <h2 id="english-heading">Your saved slips, easier to review.</h2>
+        <p>The new design starts with your Photos library. Read QR codes and text on device, review and classify slips, see daily, weekly or monthly summaries, and export XLSX or PDF. Scanning, summaries and exports are free, with no new trial or subscription.</p>
+        <p>This site previews the tested development build 1.2 (9); the App Store version may still differ. Screenshots use synthetic data. Existing Apple subscriptions are managed separately and are not automatically cancelled. <a href="support.html#legacy-subscriptions">See subscription help</a>.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 ReadSlip · อ่านสลิป</span>
+      <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" lang="en">Terms of Use</a></span>
+    </footer>
   </body>
 </html>
