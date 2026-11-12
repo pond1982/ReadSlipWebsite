@@ -1,83 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="th">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>วิธีใช้และช่วยเหลือ — ReadSlip อ่านสลิป</title>
-    <meta name="description" content="วิธีใช้ ReadSlip รุ่นใหม่: เลือกสลิปจากรูปภาพ ตรวจข้อมูล จัดประเภท ดูสรุป และส่งออก Excel หรือ PDF ฟรี พร้อมคำแนะนำสำหรับสมาชิกเดิม">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a>
-    <nav class="nav" aria-label="เมนูหลัก">
-      <a class="brand" href="index.html">
-        <img src="assets/app-icon.png" alt="" width="44" height="44">
-        <span>อ่านสลิป <small lang="en">ReadSlip</small></span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html">หน้าแรก</a>
-        <a href="privacy.html">ความเป็นส่วนตัว</a>
-        <a href="support.html" aria-current="page">ช่วยเหลือ</a>
-      </div>
-    </nav>
+<head><link href="assets/new-age/styles.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>วิธีใช้และช่วยเหลือ — ReadSlip อ่านสลิป</title>
+<meta content="วิธีใช้ ReadSlip รุ่นใหม่: เลือกสลิปจากรูปภาพ ตรวจข้อมูล จัดประเภท ดูสรุป และส่งออก Excel หรือ PDF ฟรี พร้อมคำแนะนำสำหรับสมาชิกเดิม" name="description"/>
 
-
-    <main tabindex="-1" id="main-content" class="section legal">
-      <p class="eyebrow">ReadSlip Support</p>
-      <h1>เริ่มจากรูปสลิปที่คุณมี</h1>
-      <p class="lead">เลือกหรือค้นหาสลิป ตรวจข้อมูล แล้วบันทึกเป็นรายการที่ค้นเจอและสรุปได้</p>
-      <aside id="release-status" class="notice" aria-label="สถานะรุ่นใหม่">
-        <p><strong>คู่มือนี้อธิบายรุ่นใหม่ 1.2 (9) ที่ผ่านการทดสอบในขั้นพัฒนา</strong> ยังไม่ได้ยืนยันการเผยแพร่รุ่นนี้บน App Store รุ่นที่คุณดาวน์โหลดอยู่จึงอาจมีหน้าจอและเงื่อนไขบริการเดิม</p>
-        <p>ในรุ่นใหม่นี้ การสแกน ตรวจและแก้ไข เพิ่มรายการ ดูสรุป และส่งออก Excel/PDF ใช้ฟรี โดยไม่ต้องเริ่มทดลองใช้หรือซื้อสมาชิกใหม่</p>
-      </aside>
-
-      <h2 id="get-started">1. เพิ่มสลิปจากรูปภาพหรือไฟล์</h2>
-      <ol>
-        <li>บันทึกรูปสลิปไว้ในแอปรูปภาพก่อน ไม่ว่าจะได้รับจากแอปธนาคาร แชต หรือแหล่งอื่น รุ่นใหม่ไม่มีกล้องถ่ายสลิปในแอป</li>
-        <li>เปิดแท็บ <strong>คลังสลิป</strong> แล้วเลือกรูปหรือเลือกไฟล์รูปภาพ หรือเลือกช่วงวันที่เพื่อค้นหารูปที่น่าจะเป็นสลิป คุณสามารถสแกนตั้งแต่ครั้งก่อนเพื่อหารูปที่เพิ่มภายหลังได้</li>
-        <li>ให้สิทธิ์รูปภาพเมื่อเลือกสแกน หากอนุญาตเฉพาะบางรูป แอปจะเห็นเฉพาะรูปที่คุณอนุญาต เพิ่มรูปที่อนุญาตหรือเปลี่ยนสิทธิ์ในการตั้งค่า iPhone ได้</li>
-        <li>สลิปที่พบจะรอให้ตรวจในคลังสลิป ส่วนรูปอื่นจะไม่ถูกเก็บเป็นสลิป รูปที่อยู่บน iCloud อาจต้องใช้อินเทอร์เน็ตเพื่อดาวน์โหลดก่อนอ่าน</li>
-      </ol>
-
-      <h2>2. ตรวจข้อมูลและประเภทเงินก่อนบันทึก</h2>
-      <p>เทียบยอดเงิน วันที่และเวลา ผู้โอน ผู้รับ และเลขอ้างอิงกับรูปต้นฉบับเสมอ OCR และ QR ช่วยอ่านข้อความและจัดข้อมูล แต่ไม่ยืนยันว่าสลิปแท้หรือธนาคารรับเงินแล้ว</p>
-      <p>รายการใหม่เริ่มเป็น <strong>เงินเข้า</strong> โดยเป็นข้อสันนิษฐาน คุณเปลี่ยนเป็น <strong>เงินออก</strong> หรือ <strong>โอนบัญชีตัวเอง</strong> ได้ สำหรับหลายฉบับร่าง ให้เลือกเฉพาะรายการที่ต้องการแล้วใช้การจัดประเภทพร้อมกัน การเปลี่ยนประเภทไม่ได้บันทึกรายการให้ทันที และข้อมูลที่อ่านไม่ชัดยังต้องตรวจต่อ</p>
-      <p>ฉบับร่างยังไม่รวมในยอดหรือไฟล์สรุปจนกว่าจะบันทึก หากไม่มีรูป ให้กดปุ่มเพิ่มรายการในแท็บรายการเพื่อบันทึกด้วยตนเอง</p>
-
-      <h2>3. ดูรายการ สรุป และส่งออก</h2>
-      <p>แท็บ <strong>รายการ</strong> เรียงตามวันและเวลาบนสลิป ค้นหาด้วยชื่อ ยอดเงิน หรือเลขอ้างอิง และเปิดรายการเพื่อแก้ไขได้ การเลือกไม่นับรวมยังเก็บข้อมูลและรูปไว้ และนำกลับมานับรวมได้ภายหลัง</p>
-      <p>แท็บ <strong>ภาพรวม</strong> เลือกดูวัน สัปดาห์ หรือเดือนได้ โดยใช้เวลาประเทศไทยและเริ่มสัปดาห์วันจันทร์ เลือกส่งออกสรุปเป็น <strong>Excel (.xlsx)</strong> หรือ <strong>PDF</strong> ได้ฟรี สรุปมาจากรายการที่คุณเลือกนับรวม ไม่ใช่ยอดรับเงินที่ธนาคารยืนยัน</p>
-
-      <h2>ทำไมวันที่ไม่ชัดหรือบางรายการไม่รวมในยอด?</h2>
-      <p>ฉบับร่าง รายการที่เลือกไม่นับรวม และรายการที่ยังไม่ทราบวันที่โอนจะไม่เข้าสู่ยอดของช่วงวันนั้น ตรวจวันที่จากสลิปแล้วแก้ไขเฉพาะเมื่อมีข้อมูลยืนยัน อย่าใช้วันที่นำเข้ารูปแทนวันที่โอนโดยอัตโนมัติ</p>
-
-      <h2>ทำไมแอปเตือนว่าอาจซ้ำ?</h2>
-      <p>แอปเปรียบเทียบรูป เลขอ้างอิง และข้อมูลสำคัญ เช่น ยอดเงินกับวันที่ เพื่อช่วยลดการบันทึกซ้ำ คำเตือนอาจซ้ำไม่ใช่การตรวจสอบกับธนาคาร เทียบกับรายการเดิมก่อนยืนยันบันทึกเป็นอีกธุรกรรม</p>
-
-      <h2 id="legacy-subscriptions">ข้อมูลร้านและสมาชิกเดิมอยู่ที่ไหน?</h2>
-      <p>ไปที่ <strong>ตั้งค่า → รายการเดิมในเครื่อง</strong> เพื่อดูรายการส่วนตัวและร้านในเครื่อง หรือ <strong>พื้นที่ร้านและทีมเดิม</strong> สำหรับข้อมูลทีมภายใต้สิทธิ์เดิม บริการทีมเดิมอาจซิงก์ข้อมูลและรูปสลิปผ่าน Firebase ซึ่งแยกจากคลังสลิปในเครื่องที่ใช้ฟรี และไม่ได้มีคำมั่นว่าจะให้บริการคลาวด์ฟรีตลอดไป</p>
-      <p><strong>แอปเปลี่ยนเป็นฟรีไม่ได้ยกเลิกสมาชิก Apple เดิม</strong> สมาชิกเดิมอาจยังต่ออายุ ไปที่ <strong>ตั้งค่า → สมาชิกเดิม · กู้คืนและจัดการ</strong> หรือ <a href="https://apps.apple.com/account/subscriptions">จัดการสมาชิกผ่าน Apple</a> เพื่อตรวจสอบหรือยกเลิกตามต้องการ การกู้คืนการซื้อเป็นการตรวจสิทธิ์เดิม ไม่ใช่การยกเลิกเรียกเก็บเงินหรือคืนเงิน รุ่นใหม่ไม่เสนอสมาชิกทีมใหม่หรือช่วงทดลองใช้ใหม่ในแอป</p>
-      <p>อ่าน <a href="https://support.apple.com/118428">วิธียกเลิกสมาชิกของ Apple</a> หรือ <a href="https://support.apple.com/118223">ขอคืนเงินจาก Apple</a> ได้ การอนุมัติคืนเงินขึ้นอยู่กับ Apple</p>
-
-      <h2>เปลี่ยนภาษาและหน้าตา</h2>
-      <p>เปิดตั้งค่าเพื่อเลือกภาษาไทยหรือ English และรูปแบบสว่าง มืด หรือตามระบบ</p>
-
-      <h2>ติดต่อ ReadSlip</h2>
-      <p>ส่งอีเมลถึง <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a> พร้อมรุ่น iPhone, รุ่น iOS, เวอร์ชันแอป และขั้นตอนที่พบปัญหา หากส่งภาพประกอบ โปรดปิดชื่อ เลขบัญชี เลขอ้างอิง QR และข้อมูลส่วนตัวที่ไม่จำเป็นก่อน</p>
-      <p>หากเปิดข้อมูลเดิมไม่ได้ ให้ติดต่อก่อนลบหรือติดตั้งแอปใหม่ เพราะอาจสูญเสียข้อมูลที่เก็บเฉพาะในเครื่อง</p>
-
-      <section lang="en" aria-labelledby="english-help">
-        <h2 id="english-help">English help</h2>
-        <p>This guide covers the tested development preview, version 1.2 (9). The App Store release may still show the earlier experience. In the redesign, scanning, review, manual records, summaries and XLSX/PDF exports are free, with no new trial or purchase.</p>
-        <p>Start in Library with saved slip images from Photos or image files. There is no in-app slip camera. Review the details and choose incoming, outgoing or own-account transfer before saving. Bulk classification affects selected drafts and does not save them. Overview uses Bangkok dates for daily, weekly and monthly totals.</p>
-        <p>OCR and QR reading happen on device; they do not authenticate a payment or confirm settlement. iCloud photo downloads and optional earlier team services may use the network. Existing Apple subscriptions may still renew: manage or cancel them through Apple. Restoring purchases does not cancel billing or issue a refund.</p>
-        <p>Contact <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a> with your app and iOS versions, device model and steps to reproduce. Remove sensitive information from any attachment.</p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <span>© 2026 ReadSlip · ปรับปรุง 4 พฤศจิกายน 2026</span>
-      <span><a href="privacy.html">ความเป็นส่วนตัว</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">ข้อกำหนด</a></span>
-    </footer>
-  </body>
+<link href="assets/new-age/app.css" rel="stylesheet"/></head>
+<body>
+<a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a>
+<nav aria-label="เมนูหลัก" class="nav">
+<a class="brand" href="index.html">
+<img alt="" height="44" src="assets/app-icon.png" width="44"/>
+<span>อ่านสลิป <small lang="en">ReadSlip</small></span>
+</a>
+<div class="nav-links">
+<a href="index.html">หน้าแรก</a>
+<a href="privacy.html">ความเป็นส่วนตัว</a>
+<a aria-current="page" href="support.html">ช่วยเหลือ</a>
+</div>
+</nav>
+<main class="section legal" id="main-content" tabindex="-1">
+<p class="eyebrow">ReadSlip Support</p>
+<h1>เริ่มจากรูปสลิปที่คุณมี</h1>
+<p class="lead">เลือกหรือค้นหาสลิป ตรวจข้อมูล แล้วบันทึกเป็นรายการที่ค้นเจอและสรุปได้</p>
+<aside aria-label="สถานะรุ่นใหม่" class="notice" id="release-status">
+<p><strong>คู่มือนี้อธิบายรุ่นใหม่ 1.2 (9) ที่ผ่านการทดสอบในขั้นพัฒนา</strong> ยังไม่ได้ยืนยันการเผยแพร่รุ่นนี้บน App Store รุ่นที่คุณดาวน์โหลดอยู่จึงอาจมีหน้าจอและเงื่อนไขบริการเดิม</p>
+<p>ในรุ่นใหม่นี้ การสแกน ตรวจและแก้ไข เพิ่มรายการ ดูสรุป และส่งออก Excel/PDF ใช้ฟรี โดยไม่ต้องเริ่มทดลองใช้หรือซื้อสมาชิกใหม่</p>
+</aside>
+<h2 id="get-started">1. เพิ่มสลิปจากรูปภาพหรือไฟล์</h2>
+<ol>
+<li>บันทึกรูปสลิปไว้ในแอปรูปภาพก่อน ไม่ว่าจะได้รับจากแอปธนาคาร แชต หรือแหล่งอื่น รุ่นใหม่ไม่มีกล้องถ่ายสลิปในแอป</li>
+<li>เปิดแท็บ <strong>คลังสลิป</strong> แล้วเลือกรูปหรือเลือกไฟล์รูปภาพ หรือเลือกช่วงวันที่เพื่อค้นหารูปที่น่าจะเป็นสลิป คุณสามารถสแกนตั้งแต่ครั้งก่อนเพื่อหารูปที่เพิ่มภายหลังได้</li>
+<li>ให้สิทธิ์รูปภาพเมื่อเลือกสแกน หากอนุญาตเฉพาะบางรูป แอปจะเห็นเฉพาะรูปที่คุณอนุญาต เพิ่มรูปที่อนุญาตหรือเปลี่ยนสิทธิ์ในการตั้งค่า iPhone ได้</li>
+<li>สลิปที่พบจะรอให้ตรวจในคลังสลิป ส่วนรูปอื่นจะไม่ถูกเก็บเป็นสลิป รูปที่อยู่บน iCloud อาจต้องใช้อินเทอร์เน็ตเพื่อดาวน์โหลดก่อนอ่าน</li>
+</ol>
+<h2>2. ตรวจข้อมูลและประเภทเงินก่อนบันทึก</h2>
+<p>เทียบยอดเงิน วันที่และเวลา ผู้โอน ผู้รับ และเลขอ้างอิงกับรูปต้นฉบับเสมอ OCR และ QR ช่วยอ่านข้อความและจัดข้อมูล แต่ไม่ยืนยันว่าสลิปแท้หรือธนาคารรับเงินแล้ว</p>
+<p>รายการใหม่เริ่มเป็น <strong>เงินเข้า</strong> โดยเป็นข้อสันนิษฐาน คุณเปลี่ยนเป็น <strong>เงินออก</strong> หรือ <strong>โอนบัญชีตัวเอง</strong> ได้ สำหรับหลายฉบับร่าง ให้เลือกเฉพาะรายการที่ต้องการแล้วใช้การจัดประเภทพร้อมกัน การเปลี่ยนประเภทไม่ได้บันทึกรายการให้ทันที และข้อมูลที่อ่านไม่ชัดยังต้องตรวจต่อ</p>
+<p>ฉบับร่างยังไม่รวมในยอดหรือไฟล์สรุปจนกว่าจะบันทึก หากไม่มีรูป ให้กดปุ่มเพิ่มรายการในแท็บรายการเพื่อบันทึกด้วยตนเอง</p>
+<h2>3. ดูรายการ สรุป และส่งออก</h2>
+<p>แท็บ <strong>รายการ</strong> เรียงตามวันและเวลาบนสลิป ค้นหาด้วยชื่อ ยอดเงิน หรือเลขอ้างอิง และเปิดรายการเพื่อแก้ไขได้ การเลือกไม่นับรวมยังเก็บข้อมูลและรูปไว้ และนำกลับมานับรวมได้ภายหลัง</p>
+<p>แท็บ <strong>ภาพรวม</strong> เลือกดูวัน สัปดาห์ หรือเดือนได้ โดยใช้เวลาประเทศไทยและเริ่มสัปดาห์วันจันทร์ เลือกส่งออกสรุปเป็น <strong>Excel (.xlsx)</strong> หรือ <strong>PDF</strong> ได้ฟรี สรุปมาจากรายการที่คุณเลือกนับรวม ไม่ใช่ยอดรับเงินที่ธนาคารยืนยัน</p>
+<h2>ทำไมวันที่ไม่ชัดหรือบางรายการไม่รวมในยอด?</h2>
+<p>ฉบับร่าง รายการที่เลือกไม่นับรวม และรายการที่ยังไม่ทราบวันที่โอนจะไม่เข้าสู่ยอดของช่วงวันนั้น ตรวจวันที่จากสลิปแล้วแก้ไขเฉพาะเมื่อมีข้อมูลยืนยัน อย่าใช้วันที่นำเข้ารูปแทนวันที่โอนโดยอัตโนมัติ</p>
+<h2>ทำไมแอปเตือนว่าอาจซ้ำ?</h2>
+<p>แอปเปรียบเทียบรูป เลขอ้างอิง และข้อมูลสำคัญ เช่น ยอดเงินกับวันที่ เพื่อช่วยลดการบันทึกซ้ำ คำเตือนอาจซ้ำไม่ใช่การตรวจสอบกับธนาคาร เทียบกับรายการเดิมก่อนยืนยันบันทึกเป็นอีกธุรกรรม</p>
+<h2 id="legacy-subscriptions">ข้อมูลร้านและสมาชิกเดิมอยู่ที่ไหน?</h2>
+<p>ไปที่ <strong>ตั้งค่า → รายการเดิมในเครื่อง</strong> เพื่อดูรายการส่วนตัวและร้านในเครื่อง หรือ <strong>พื้นที่ร้านและทีมเดิม</strong> สำหรับข้อมูลทีมภายใต้สิทธิ์เดิม บริการทีมเดิมอาจซิงก์ข้อมูลและรูปสลิปผ่าน Firebase ซึ่งแยกจากคลังสลิปในเครื่องที่ใช้ฟรี และไม่ได้มีคำมั่นว่าจะให้บริการคลาวด์ฟรีตลอดไป</p>
+<p><strong>แอปเปลี่ยนเป็นฟรีไม่ได้ยกเลิกสมาชิก Apple เดิม</strong> สมาชิกเดิมอาจยังต่ออายุ ไปที่ <strong>ตั้งค่า → สมาชิกเดิม · กู้คืนและจัดการ</strong> หรือ <a href="https://apps.apple.com/account/subscriptions">จัดการสมาชิกผ่าน Apple</a> เพื่อตรวจสอบหรือยกเลิกตามต้องการ การกู้คืนการซื้อเป็นการตรวจสิทธิ์เดิม ไม่ใช่การยกเลิกเรียกเก็บเงินหรือคืนเงิน รุ่นใหม่ไม่เสนอสมาชิกทีมใหม่หรือช่วงทดลองใช้ใหม่ในแอป</p>
+<p>อ่าน <a href="https://support.apple.com/118428">วิธียกเลิกสมาชิกของ Apple</a> หรือ <a href="https://support.apple.com/118223">ขอคืนเงินจาก Apple</a> ได้ การอนุมัติคืนเงินขึ้นอยู่กับ Apple</p>
+<h2>เปลี่ยนภาษาและหน้าตา</h2>
+<p>เปิดตั้งค่าเพื่อเลือกภาษาไทยหรือ English และรูปแบบสว่าง มืด หรือตามระบบ</p>
+<h2>ติดต่อ ReadSlip</h2>
+<p>ส่งอีเมลถึง <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a> พร้อมรุ่น iPhone, รุ่น iOS, เวอร์ชันแอป และขั้นตอนที่พบปัญหา หากส่งภาพประกอบ โปรดปิดชื่อ เลขบัญชี เลขอ้างอิง QR และข้อมูลส่วนตัวที่ไม่จำเป็นก่อน</p>
+<p>หากเปิดข้อมูลเดิมไม่ได้ ให้ติดต่อก่อนลบหรือติดตั้งแอปใหม่ เพราะอาจสูญเสียข้อมูลที่เก็บเฉพาะในเครื่อง</p>
+<section aria-labelledby="english-help" lang="en">
+<h2 id="english-help">English help</h2>
+<p>This guide covers the tested development preview, version 1.2 (9). The App Store release may still show the earlier experience. In the redesign, scanning, review, manual records, summaries and XLSX/PDF exports are free, with no new trial or purchase.</p>
+<p>Start in Library with saved slip images from Photos or image files. There is no in-app slip camera. Review the details and choose incoming, outgoing or own-account transfer before saving. Bulk classification affects selected drafts and does not save them. Overview uses Bangkok dates for daily, weekly and monthly totals.</p>
+<p>OCR and QR reading happen on device; they do not authenticate a payment or confirm settlement. iCloud photo downloads and optional earlier team services may use the network. Existing Apple subscriptions may still renew: manage or cancel them through Apple. Restoring purchases does not cancel billing or issue a refund.</p>
+<p>Contact <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a> with your app and iOS versions, device model and steps to reproduce. Remove sensitive information from any attachment.</p>
+</section>
+</main>
+<footer class="footer">
+<span>© 2026 ReadSlip · ปรับปรุง 4 พฤศจิกายน 2026</span>
+<span><a href="privacy.html">ความเป็นส่วนตัว</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">ข้อกำหนด</a></span>
+<nav aria-label="Developer portfolio" class="portfolio-links"><a href="https://pond1982.github.io/Pondd-Page/">Pondd · Portfolio</a><a href="https://pond1982.github.io/Pondd-Page/index.html#apps">All apps</a></nav></footer>
+</body>
 </html>

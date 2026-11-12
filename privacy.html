@@ -1,84 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="th">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ความเป็นส่วนตัว — ReadSlip อ่านสลิป</title>
-    <meta name="description" content="การใช้รูปสลิป ข้อมูลในเครื่อง Firebase Analytics และบริการทีมเดิมของ ReadSlip พร้อมข้อมูลการจัดการสมาชิก Apple เดิม">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a>
-    <nav class="nav" aria-label="เมนูหลัก">
-      <a class="brand" href="index.html">
-        <img src="assets/app-icon.png" alt="" width="44" height="44">
-        <span>อ่านสลิป <small lang="en">ReadSlip</small></span>
-      </a>
-      <div class="nav-links">
-        <a href="index.html">หน้าแรก</a>
-        <a href="privacy.html" aria-current="page">ความเป็นส่วนตัว</a>
-        <a href="support.html">ช่วยเหลือ</a>
-      </div>
-    </nav>
+<head><link href="assets/new-age/styles.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ความเป็นส่วนตัว — ReadSlip อ่านสลิป</title>
+<meta content="การใช้รูปสลิป ข้อมูลในเครื่อง Firebase Analytics และบริการทีมเดิมของ ReadSlip พร้อมข้อมูลการจัดการสมาชิก Apple เดิม" name="description"/>
 
-
-    <main tabindex="-1" id="main-content" class="section legal">
-      <p class="eyebrow">Privacy Policy</p>
-      <h1>ข้อมูลสลิปอยู่ที่ไหน และใช้ทำอะไร</h1>
-      <p class="lead">นโยบายนี้แยกการอ่านและเก็บสลิปในเครื่องออกจากบริการร้านและทีมเดิม เพื่อให้คุณเลือกใช้งานโดยเข้าใจการส่งข้อมูล</p>
-      <p class="note">ปรับปรุงล่าสุด: 4 พฤศจิกายน 2026</p>
-      <aside class="notice" aria-label="ขอบเขตรุ่นแอป">
-        <p><strong>รุ่นใหม่ 1.2 (9) เป็นรุ่นพัฒนาที่ผ่านการทดสอบ</strong> ยังไม่ได้ยืนยันการเผยแพร่บน App Store นโยบายนี้อธิบายคลังสลิปรุ่นใหม่และบริการเดิมที่ยังเก็บไว้เพื่อเข้าถึงข้อมูลเก่า รุ่นที่ติดตั้งจาก App Store อาจยังใช้หน้าจอโหมดส่วนตัว/โหมดร้านและเงื่อนไขสมาชิกเดิม</p>
-      </aside>
-
-      <h2>ข้อมูลที่แอปใช้</h2>
-      <ul>
-        <li>รูปภาพที่คุณเลือก นำเข้า หรืออนุญาตให้ค้นหาในคลังรูป รวมถึงรูปสลิปที่เก็บเป็นหลักฐานในแอป</li>
-        <li>ข้อความที่อ่านจากรูปและข้อมูลที่คุณตรวจหรือเพิ่มเอง เช่น ยอดเงิน วันและเวลาโอน ผู้โอน ผู้รับ เลขอ้างอิง ประเภทเงินเข้า/ออก/โอนบัญชีตัวเอง หมวดหมู่ และหมายเหตุ</li>
-        <li>สถานะฉบับร่าง การตรวจแก้ การเลือกนับรวม และข้อมูลช่วยหลีกเลี่ยงการสแกนหรือบันทึกซ้ำ</li>
-        <li>หากใช้พื้นที่ร้านและทีมเดิม: ชื่อร้าน ชื่อพนักงาน บทบาท สมาชิก สิทธิ์เข้าถึง และรายการกับรูปสลิปที่ส่งให้ร้าน</li>
-        <li>ข้อมูลการใช้งานทั่วไปผ่าน Firebase Analytics และสถานะสิทธิ์สมาชิกเดิมจาก Apple ตามที่อธิบายด้านล่าง</li>
-      </ul>
-
-      <h2>อ่าน OCR และ QR บน iPhone</h2>
-      <p>แอปใช้ Apple Vision อ่านข้อความและ QR บนเครื่อง ไม่อัปโหลดรูปไปอ่าน OCR บนเซิร์ฟเวอร์ การอ่าน QR ไม่ได้ติดต่อธนาคารเพื่อยืนยันว่าสลิปแท้หรือเงินเข้าจริง</p>
-      <p>ในคลังสลิปรุ่นใหม่ ข้อมูล รูปสลิป และฉบับร่างถูกเก็บในพื้นที่แอปบนอุปกรณ์ การค้นหารูปอาจประมวลผลรูปที่คุณอนุญาตเพื่อหาสลิป แต่รูปอื่นที่ไม่ใช่สลิปจะไม่ถูกเก็บเป็นฉบับร่าง การอ่านรูปที่อยู่บน iCloud อาจต้องดาวน์โหลดผ่านบริการรูปภาพของ Apple จึงไม่ควรถือว่าการใช้แอปไม่มีเครือข่ายทั้งหมด</p>
-
-      <h2>สิทธิ์รูปภาพและไฟล์</h2>
-      <p>แอปขอสิทธิ์รูปภาพเมื่อคุณเลือกสแกน คุณเลือกจำกัดรูปที่อนุญาตหรือปรับสิทธิ์ได้ในการตั้งค่า iPhone การเลือกไฟล์ให้แอปอ่านเฉพาะไฟล์ที่คุณเลือก รุ่นใหม่ไม่มีกล้องถ่ายสลิปในแอป</p>
-
-      <h2>การส่งออกและการเก็บข้อมูล</h2>
-      <p>คุณสร้างไฟล์ Excel (.xlsx) หรือ PDF และเลือกปลายทางผ่านเมนูแชร์ของ iOS ได้ ไฟล์เหล่านี้อาจมีชื่อ ยอดเงิน เลขอ้างอิง และรายละเอียดสลิป โปรดพิจารณาปลายทางก่อนบันทึกหรือแชร์ สำเนาที่ส่งออกอยู่ภายใต้การดูแลของคุณและผู้ให้บริการปลายทาง</p>
-      <p>การไม่นับรวมเป็นการเก็บรายการไว้แต่ไม่รวมในยอด ไม่ใช่การลบข้อมูล การลบแอปหรือติดตั้งใหม่อาจทำให้ข้อมูลที่มีเฉพาะในเครื่องสูญหาย ติดต่อฝ่ายสนับสนุนก่อนหากเปิดข้อมูลเดิมไม่ได้</p>
-
-      <h2>บริการร้านและทีมเดิม</h2>
-      <p>พื้นที่ร้านและทีมเดิมแยกจากคลังสลิปในเครื่อง โดยยังใช้ Firebase Authentication, Cloud Firestore และ Firebase Storage สำหรับตัวตน สิทธิ์ร้าน ข้อมูลที่ซิงก์ และรูปสลิปที่ส่งให้ร้าน ผู้ใช้ที่มีสิทธิ์ตามบทบาทในร้านจึงอาจเห็นข้อมูลนั้นได้</p>
-      <p>เจ้าของที่ใช้ Sign in with Apple สามารถใช้ตัวตนดังกล่าวเพื่อเข้าถึงร้านเดิมผ่าน Firebase ส่วนตัวตนแบบไม่ระบุชื่อของ Firebase ยังใช้ในบริการเดิมตามบทบาท แอปใช้ Firebase App Check เพื่อช่วยตรวจคำขอจากแอป บริการเหล่านี้อาจส่งข้อมูลผ่านเครือข่าย และการเป็นแอปฟรีไม่ได้เปลี่ยนสิทธิ์เข้าถึงข้อมูลทีมเดิมหรือรับประกันบริการคลาวด์ฟรีตลอดไป</p>
-      <p>การจัดการหรือลบข้อมูลร้านต้องทำผ่านสิทธิ์และขั้นตอนของบริการเดิม การลบข้อมูลเฉพาะเครื่องไม่ได้ลบสำเนาที่ซิงก์ไว้ในร้านโดยอัตโนมัติ หากต้องการความช่วยเหลือเกี่ยวกับข้อมูลร้านหรือตัวตนเดิม โปรดติดต่อเรา</p>
-
-      <h2>Firebase Analytics</h2>
-      <p>แอปเริ่มต้น Firebase และบันทึกเหตุการณ์เปิดแอป แม้ใช้คลังสลิปในเครื่อง เหตุการณ์การใช้งานที่แอปส่งอาจรวมการเริ่มหรือจบสแกน จำนวนรูปหรือรายการ สถานะสำเร็จ/ผิดพลาด การบันทึก ซิงก์ ส่งออก ขอให้รีวิว และสถานะสมาชิกเดิม รวมถึงภาษา รูปแบบหน้าตา และบทบาทการใช้งาน</p>
-      <p>เหตุการณ์ที่ ReadSlip กำหนดไม่แนบรูปสลิป ข้อความ OCR ดิบ จำนวนเงินบนสลิป ชื่อผู้โอน/ผู้รับ ชื่อพนักงาน เลขอ้างอิง รหัสร้าน รหัสเชิญ หรือเส้นทางไฟล์รูป ทั้งนี้ Firebase SDK อาจประมวลผลตัวระบุแอป/อุปกรณ์และข้อมูลเทคนิคตามการทำงานของบริการ จึงไม่ใช่คำรับรองว่าแอปไม่ส่งข้อมูลใดเลย</p>
-
-      <h2>รุ่นใช้ฟรีและสมาชิก Apple เดิม</h2>
-      <p>คลังสลิปรุ่นใหม่ให้สแกน ตรวจ เพิ่มรายการ ดูสรุป และส่งออกได้ฟรี โดยไม่ต้องทดลองใช้หรือซื้อใหม่ แอปยังใช้ StoreKit เพื่อตรวจและกู้คืนสิทธิ์สมาชิกทีมที่เคยซื้อผ่าน Apple และไม่เก็บรายละเอียดบัตรชำระเงินของคุณ</p>
-      <p><strong>สมาชิกเดิมอาจยังต่ออายุผ่าน Apple</strong> การทำแอปให้ฟรีหรือกู้คืนการซื้อไม่ยกเลิกเรียกเก็บเงินหรือคืนเงินอัตโนมัติ โปรด <a href="https://apps.apple.com/account/subscriptions">ตรวจสอบและจัดการสมาชิกเดิมผ่าน Apple</a> ตามต้องการ รุ่นใหม่ไม่เสนอสมาชิกทีมหรือช่วงทดลองใช้ใหม่ในแอป</p>
-
-      <h2>ผู้ให้บริการและการติดต่อ</h2>
-      <p>ข้อมูลอาจประมวลผลโดย Apple สำหรับรูปภาพ การแชร์ และการซื้อเดิม และโดย Google Firebase สำหรับ Analytics และบริการทีมเดิมตามที่อธิบายไว้ ข้อมูลที่คุณเลือกส่งอีเมลหาฝ่ายสนับสนุนใช้เพื่อช่วยแก้ปัญหาหรือตอบคำถามของคุณ โปรดอย่าส่งข้อมูลธนาคารหรือรูปสลิปจริงที่ไม่จำเป็น</p>
-      <p>สำหรับคำถามความเป็นส่วนตัวหรือคำขอเกี่ยวกับข้อมูล ติดต่อ <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a></p>
-
-      <section lang="en" aria-labelledby="english-privacy">
-        <h2 id="english-privacy">English summary</h2>
-        <p>Updated November 4, 2026. The free redesign is a tested development preview, version 1.2 (9); the App Store version may still have the earlier experience. OCR and QR reading use Apple Vision on device, and local slip records and drafts stay in the app's device storage. iCloud photo retrieval can use the network. Reading a QR does not authenticate a slip or verify bank settlement.</p>
-        <p>The app initializes Firebase and logs app usage through Firebase Analytics, including at launch. ReadSlip's custom events do not attach slip images, raw OCR text, slip amounts, names, references, shop IDs, invite codes or image paths. Firebase may also process SDK identifiers and technical data. Optional earlier team services use Firebase authentication, cloud records and image storage, with access controlled by shop roles.</p>
-        <p>Exports can contain sensitive information and go to the destination you choose. Earlier Apple subscriptions may still renew; free local access and purchase restoration do not cancel billing or issue refunds. Contact <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a> for privacy questions or help with earlier cloud records.</p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <span>© 2026 ReadSlip · ปรับปรุง 4 พฤศจิกายน 2026</span>
-      <span><a href="support.html">ช่วยเหลือ</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">ข้อกำหนด</a></span>
-    </footer>
-  </body>
+<link href="assets/new-age/app.css" rel="stylesheet"/></head>
+<body>
+<a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหา</a>
+<nav aria-label="เมนูหลัก" class="nav">
+<a class="brand" href="index.html">
+<img alt="" height="44" src="assets/app-icon.png" width="44"/>
+<span>อ่านสลิป <small lang="en">ReadSlip</small></span>
+</a>
+<div class="nav-links">
+<a href="index.html">หน้าแรก</a>
+<a aria-current="page" href="privacy.html">ความเป็นส่วนตัว</a>
+<a href="support.html">ช่วยเหลือ</a>
+</div>
+</nav>
+<main class="section legal" id="main-content" tabindex="-1">
+<p class="eyebrow">Privacy Policy</p>
+<h1>ข้อมูลสลิปอยู่ที่ไหน และใช้ทำอะไร</h1>
+<p class="lead">นโยบายนี้แยกการอ่านและเก็บสลิปในเครื่องออกจากบริการร้านและทีมเดิม เพื่อให้คุณเลือกใช้งานโดยเข้าใจการส่งข้อมูล</p>
+<p class="note">ปรับปรุงล่าสุด: 4 พฤศจิกายน 2026</p>
+<aside aria-label="ขอบเขตรุ่นแอป" class="notice">
+<p><strong>รุ่นใหม่ 1.2 (9) เป็นรุ่นพัฒนาที่ผ่านการทดสอบ</strong> ยังไม่ได้ยืนยันการเผยแพร่บน App Store นโยบายนี้อธิบายคลังสลิปรุ่นใหม่และบริการเดิมที่ยังเก็บไว้เพื่อเข้าถึงข้อมูลเก่า รุ่นที่ติดตั้งจาก App Store อาจยังใช้หน้าจอโหมดส่วนตัว/โหมดร้านและเงื่อนไขสมาชิกเดิม</p>
+</aside>
+<h2>ข้อมูลที่แอปใช้</h2>
+<ul>
+<li>รูปภาพที่คุณเลือก นำเข้า หรืออนุญาตให้ค้นหาในคลังรูป รวมถึงรูปสลิปที่เก็บเป็นหลักฐานในแอป</li>
+<li>ข้อความที่อ่านจากรูปและข้อมูลที่คุณตรวจหรือเพิ่มเอง เช่น ยอดเงิน วันและเวลาโอน ผู้โอน ผู้รับ เลขอ้างอิง ประเภทเงินเข้า/ออก/โอนบัญชีตัวเอง หมวดหมู่ และหมายเหตุ</li>
+<li>สถานะฉบับร่าง การตรวจแก้ การเลือกนับรวม และข้อมูลช่วยหลีกเลี่ยงการสแกนหรือบันทึกซ้ำ</li>
+<li>หากใช้พื้นที่ร้านและทีมเดิม: ชื่อร้าน ชื่อพนักงาน บทบาท สมาชิก สิทธิ์เข้าถึง และรายการกับรูปสลิปที่ส่งให้ร้าน</li>
+<li>ข้อมูลการใช้งานทั่วไปผ่าน Firebase Analytics และสถานะสิทธิ์สมาชิกเดิมจาก Apple ตามที่อธิบายด้านล่าง</li>
+</ul>
+<h2>อ่าน OCR และ QR บน iPhone</h2>
+<p>แอปใช้ Apple Vision อ่านข้อความและ QR บนเครื่อง ไม่อัปโหลดรูปไปอ่าน OCR บนเซิร์ฟเวอร์ การอ่าน QR ไม่ได้ติดต่อธนาคารเพื่อยืนยันว่าสลิปแท้หรือเงินเข้าจริง</p>
+<p>ในคลังสลิปรุ่นใหม่ ข้อมูล รูปสลิป และฉบับร่างถูกเก็บในพื้นที่แอปบนอุปกรณ์ การค้นหารูปอาจประมวลผลรูปที่คุณอนุญาตเพื่อหาสลิป แต่รูปอื่นที่ไม่ใช่สลิปจะไม่ถูกเก็บเป็นฉบับร่าง การอ่านรูปที่อยู่บน iCloud อาจต้องดาวน์โหลดผ่านบริการรูปภาพของ Apple จึงไม่ควรถือว่าการใช้แอปไม่มีเครือข่ายทั้งหมด</p>
+<h2>สิทธิ์รูปภาพและไฟล์</h2>
+<p>แอปขอสิทธิ์รูปภาพเมื่อคุณเลือกสแกน คุณเลือกจำกัดรูปที่อนุญาตหรือปรับสิทธิ์ได้ในการตั้งค่า iPhone การเลือกไฟล์ให้แอปอ่านเฉพาะไฟล์ที่คุณเลือก รุ่นใหม่ไม่มีกล้องถ่ายสลิปในแอป</p>
+<h2>การส่งออกและการเก็บข้อมูล</h2>
+<p>คุณสร้างไฟล์ Excel (.xlsx) หรือ PDF และเลือกปลายทางผ่านเมนูแชร์ของ iOS ได้ ไฟล์เหล่านี้อาจมีชื่อ ยอดเงิน เลขอ้างอิง และรายละเอียดสลิป โปรดพิจารณาปลายทางก่อนบันทึกหรือแชร์ สำเนาที่ส่งออกอยู่ภายใต้การดูแลของคุณและผู้ให้บริการปลายทาง</p>
+<p>การไม่นับรวมเป็นการเก็บรายการไว้แต่ไม่รวมในยอด ไม่ใช่การลบข้อมูล การลบแอปหรือติดตั้งใหม่อาจทำให้ข้อมูลที่มีเฉพาะในเครื่องสูญหาย ติดต่อฝ่ายสนับสนุนก่อนหากเปิดข้อมูลเดิมไม่ได้</p>
+<h2>บริการร้านและทีมเดิม</h2>
+<p>พื้นที่ร้านและทีมเดิมแยกจากคลังสลิปในเครื่อง โดยยังใช้ Firebase Authentication, Cloud Firestore และ Firebase Storage สำหรับตัวตน สิทธิ์ร้าน ข้อมูลที่ซิงก์ และรูปสลิปที่ส่งให้ร้าน ผู้ใช้ที่มีสิทธิ์ตามบทบาทในร้านจึงอาจเห็นข้อมูลนั้นได้</p>
+<p>เจ้าของที่ใช้ Sign in with Apple สามารถใช้ตัวตนดังกล่าวเพื่อเข้าถึงร้านเดิมผ่าน Firebase ส่วนตัวตนแบบไม่ระบุชื่อของ Firebase ยังใช้ในบริการเดิมตามบทบาท แอปใช้ Firebase App Check เพื่อช่วยตรวจคำขอจากแอป บริการเหล่านี้อาจส่งข้อมูลผ่านเครือข่าย และการเป็นแอปฟรีไม่ได้เปลี่ยนสิทธิ์เข้าถึงข้อมูลทีมเดิมหรือรับประกันบริการคลาวด์ฟรีตลอดไป</p>
+<p>การจัดการหรือลบข้อมูลร้านต้องทำผ่านสิทธิ์และขั้นตอนของบริการเดิม การลบข้อมูลเฉพาะเครื่องไม่ได้ลบสำเนาที่ซิงก์ไว้ในร้านโดยอัตโนมัติ หากต้องการความช่วยเหลือเกี่ยวกับข้อมูลร้านหรือตัวตนเดิม โปรดติดต่อเรา</p>
+<h2>Firebase Analytics</h2>
+<p>แอปเริ่มต้น Firebase และบันทึกเหตุการณ์เปิดแอป แม้ใช้คลังสลิปในเครื่อง เหตุการณ์การใช้งานที่แอปส่งอาจรวมการเริ่มหรือจบสแกน จำนวนรูปหรือรายการ สถานะสำเร็จ/ผิดพลาด การบันทึก ซิงก์ ส่งออก ขอให้รีวิว และสถานะสมาชิกเดิม รวมถึงภาษา รูปแบบหน้าตา และบทบาทการใช้งาน</p>
+<p>เหตุการณ์ที่ ReadSlip กำหนดไม่แนบรูปสลิป ข้อความ OCR ดิบ จำนวนเงินบนสลิป ชื่อผู้โอน/ผู้รับ ชื่อพนักงาน เลขอ้างอิง รหัสร้าน รหัสเชิญ หรือเส้นทางไฟล์รูป ทั้งนี้ Firebase SDK อาจประมวลผลตัวระบุแอป/อุปกรณ์และข้อมูลเทคนิคตามการทำงานของบริการ จึงไม่ใช่คำรับรองว่าแอปไม่ส่งข้อมูลใดเลย</p>
+<h2>รุ่นใช้ฟรีและสมาชิก Apple เดิม</h2>
+<p>คลังสลิปรุ่นใหม่ให้สแกน ตรวจ เพิ่มรายการ ดูสรุป และส่งออกได้ฟรี โดยไม่ต้องทดลองใช้หรือซื้อใหม่ แอปยังใช้ StoreKit เพื่อตรวจและกู้คืนสิทธิ์สมาชิกทีมที่เคยซื้อผ่าน Apple และไม่เก็บรายละเอียดบัตรชำระเงินของคุณ</p>
+<p><strong>สมาชิกเดิมอาจยังต่ออายุผ่าน Apple</strong> การทำแอปให้ฟรีหรือกู้คืนการซื้อไม่ยกเลิกเรียกเก็บเงินหรือคืนเงินอัตโนมัติ โปรด <a href="https://apps.apple.com/account/subscriptions">ตรวจสอบและจัดการสมาชิกเดิมผ่าน Apple</a> ตามต้องการ รุ่นใหม่ไม่เสนอสมาชิกทีมหรือช่วงทดลองใช้ใหม่ในแอป</p>
+<h2>ผู้ให้บริการและการติดต่อ</h2>
+<p>ข้อมูลอาจประมวลผลโดย Apple สำหรับรูปภาพ การแชร์ และการซื้อเดิม และโดย Google Firebase สำหรับ Analytics และบริการทีมเดิมตามที่อธิบายไว้ ข้อมูลที่คุณเลือกส่งอีเมลหาฝ่ายสนับสนุนใช้เพื่อช่วยแก้ปัญหาหรือตอบคำถามของคุณ โปรดอย่าส่งข้อมูลธนาคารหรือรูปสลิปจริงที่ไม่จำเป็น</p>
+<p>สำหรับคำถามความเป็นส่วนตัวหรือคำขอเกี่ยวกับข้อมูล ติดต่อ <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a></p>
+<section aria-labelledby="english-privacy" lang="en">
+<h2 id="english-privacy">English summary</h2>
+<p>Updated November 4, 2026. The free redesign is a tested development preview, version 1.2 (9); the App Store version may still have the earlier experience. OCR and QR reading use Apple Vision on device, and local slip records and drafts stay in the app's device storage. iCloud photo retrieval can use the network. Reading a QR does not authenticate a slip or verify bank settlement.</p>
+<p>The app initializes Firebase and logs app usage through Firebase Analytics, including at launch. ReadSlip's custom events do not attach slip images, raw OCR text, slip amounts, names, references, shop IDs, invite codes or image paths. Firebase may also process SDK identifiers and technical data. Optional earlier team services use Firebase authentication, cloud records and image storage, with access controlled by shop roles.</p>
+<p>Exports can contain sensitive information and go to the destination you choose. Earlier Apple subscriptions may still renew; free local access and purchase restoration do not cancel billing or issue refunds. Contact <a href="mailto:pondd.dev@gmail.com">pondd.dev@gmail.com</a> for privacy questions or help with earlier cloud records.</p>
+</section>
+</main>
+<footer class="footer">
+<span>© 2026 ReadSlip · ปรับปรุง 4 พฤศจิกายน 2026</span>
+<span><a href="support.html">ช่วยเหลือ</a> · <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">ข้อกำหนด</a></span>
+<nav aria-label="Developer portfolio" class="portfolio-links"><a href="https://pond1982.github.io/Pondd-Page/">Pondd · Portfolio</a><a href="https://pond1982.github.io/Pondd-Page/index.html#apps">All apps</a></nav></footer>
+</body>
 </html>
